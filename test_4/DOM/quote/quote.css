@@ -1,0 +1,38 @@
+/****************************************************************
+                          QUOTE GENERATOR
+*****************************************************************/
+.container_4 {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  border: 2px solid aliceblue;
+  border-radius: 4px;
+}
+
+.main_content {
+  text-align: center;
+  color: black;
+}
+
+.name {
+  color: brown;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.text_area {
+  text-transform: uppercase;
+  border: 2px solid burlywood;
+  padding: 10px;
+  border-radius: 4px;
+  background: hsla(0, 0%, 97%, 0.25);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button_area button:active {
+  background-color: lightsalmon;
+}

@@ -1,0 +1,20 @@
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  line-height: 1px;
+  font-size: 11px;
+  color: #f7ebebd8;
+}
+
+#terms_privacy a {
+  color: rgb(9, 32, 240);
+}
+#horizontal_line {
+  width: 29%;
+  height: 1px;
+  background: hsl(0, 10%, 94%);
+}

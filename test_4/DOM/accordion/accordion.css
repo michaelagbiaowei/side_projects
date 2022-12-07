@@ -1,0 +1,66 @@
+/****************************************************************
+                          ACCORDION
+*****************************************************************/
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/asas.webp");
+}
+.accordion {
+  width: 60%;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  color: black;
+  font-weight: 700;
+}
+
+.accordion .accordion_title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.accordion .content_container .question {
+  position: relative;
+  padding: 18px 0px;
+  font-size: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+
+.accordion .content_container .question::after {
+  content: "+";
+  position: absolute;
+  right: -1px;
+}
+
+.accordion .content_container .answer {
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+/* Javascript styling link*/
+.accordion .content_container.active .answer {
+  height: 130px;
+}
+
+.accordion .content_container.active .question {
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.accordion .content_container.active .question::after {
+  content: "-";
+  transition: 0.5s;
+  font-size: 25px;
+}

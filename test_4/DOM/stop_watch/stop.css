@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/asas.webp");
+}
+
+.container {
+  width: 200px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-weight: 700;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.timer {
+  font-size: 40px;
+  padding-bottom: 5px;
+  color: aliceblue;
+}
+
+.buttons {
+  padding: 5px;
+}
+
+.buttons .start_btn {
+  background: green;
+  color: aliceblue;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 5px;
+}
+
+.buttons .reset_btn {
+  background: red;
+  color: aliceblue;
+  border: none;
+  border-radius: 2px;
+  padding: 3px 5px;
+  margin-right: 5px;
+}
+
+.reset_btn {
+  margin-left: 10px;
+}

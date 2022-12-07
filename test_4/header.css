@@ -1,0 +1,23 @@
+header {
+  position: relative;
+}
+#account_container {
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  left: 459px;
+}
+
+#logo,
+#sign_up {
+  font-size: 40px;
+  color: #f0f0f0;
+}
+
+#alt {
+  color: #f7ebebd8;
+}
+
+#alt a {
+  color: rgb(9, 32, 240);
+}
