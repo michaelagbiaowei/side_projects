@@ -1,0 +1,186 @@
+@import url("https://fonts.google.com/specimen/Roboto+Mono");
+
+@font-face {
+  font-family: "Booter - Zero Zero";
+  src: url("BOOTERZZ.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Lucida Console", "Courier New", "monospace";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #777;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: 2em;
+  color: white;
+  text-decoration: none;
+}
+.main-nav {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 6);
+  background-image: url("Capture.PNG");
+  background-size: auto;
+  background-blend-mode: multiple;
+  background-repeat: round;
+  padding-bottom: 30px;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+.band-name-large {
+  font-size: 6em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.section-header {
+  font-family: "Roboto Mono";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.about-band-image {
+  float: left;
+  margin: 15px;
+}
+.image-about-page {
+  float: left;
+  margin: 15px;
+}
+.main-footer {
+  background-color: #0073e6;
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.footer-nav li {
+  padding: 0, 0.5em;
+}
+
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid blue;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1em;
+  font-weight: lighter;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: blue;
+  font-size: 1m;
+  border-radius: 50%;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
+}
+
+.tour-item {
+  padding: 0.5em;
+  display: inline-block;
+}
+
+.tour-date {
+  color: #555;
+  font-weight: bond;
+  width: 11%;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
